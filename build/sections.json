@@ -1,0 +1,1694 @@
+{
+  "source": "manual.pdf",
+  "page_count": 192,
+  "chapters": [
+    {
+      "number": 1,
+      "label": "一、进入与使用数字教研工作室",
+      "title": "进入与使用数字教研工作室",
+      "start_page": 8,
+      "sections": [
+        {
+          "id": "01-01",
+          "chapter_number": 1,
+          "section_number": 1,
+          "chapter": "一、进入与使用数字教研工作室",
+          "title": "打开数字教研工作室",
+          "start_page": 8,
+          "end_page": 8,
+          "subsections": []
+        },
+        {
+          "id": "01-02",
+          "chapter_number": 1,
+          "section_number": 2,
+          "chapter": "一、进入与使用数字教研工作室",
+          "title": "申请加入工作室",
+          "start_page": 9,
+          "end_page": 10,
+          "subsections": []
+        },
+        {
+          "id": "01-03",
+          "chapter_number": 1,
+          "section_number": 3,
+          "chapter": "一、进入与使用数字教研工作室",
+          "title": "进入工作空间",
+          "start_page": 11,
+          "end_page": 11,
+          "subsections": []
+        },
+        {
+          "id": "01-04",
+          "chapter_number": 1,
+          "section_number": 4,
+          "chapter": "一、进入与使用数字教研工作室",
+          "title": "退出工作室",
+          "start_page": 12,
+          "end_page": 12,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "二、课程资源",
+      "title": "课程资源",
+      "start_page": 12,
+      "sections": [
+        {
+          "id": "02-01",
+          "chapter_number": 2,
+          "section_number": 1,
+          "chapter": "二、课程资源",
+          "title": "浏览课程资源",
+          "start_page": 12,
+          "end_page": 12,
+          "subsections": []
+        },
+        {
+          "id": "02-02",
+          "chapter_number": 2,
+          "section_number": 2,
+          "chapter": "二、课程资源",
+          "title": "备课本管理",
+          "start_page": 13,
+          "end_page": 20,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "创建备课本",
+              "start_page": 13
+            },
+            {
+              "number": 2,
+              "title": "打开我的备课本",
+              "start_page": 16
+            },
+            {
+              "number": 3,
+              "title": "设置常用备课本",
+              "start_page": 17
+            },
+            {
+              "number": 4,
+              "title": "修改备课本",
+              "start_page": 17
+            },
+            {
+              "number": 5,
+              "title": "编辑教学计划",
+              "start_page": 18
+            },
+            {
+              "number": 6,
+              "title": "删除备课本",
+              "start_page": 19
+            },
+            {
+              "number": 7,
+              "title": "导出与下载备课本",
+              "start_page": 20
+            },
+            {
+              "number": 8,
+              "title": "查看备课本审阅记录",
+              "start_page": 21
+            }
+          ]
+        },
+        {
+          "id": "02-03",
+          "chapter_number": 2,
+          "section_number": 3,
+          "chapter": "二、课程资源",
+          "title": "上传成套课程资源",
+          "start_page": 21,
+          "end_page": 44,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "打开课程资源编辑页",
+              "start_page": 21
+            },
+            {
+              "number": 2,
+              "title": "设置课程资源基本信息",
+              "start_page": 22
+            },
+            {
+              "number": 3,
+              "title": "上传教案/学习任务单",
+              "start_page": 24
+            },
+            {
+              "number": 4,
+              "title": "上传课件",
+              "start_page": 28
+            },
+            {
+              "number": 5,
+              "title": "编辑分析/反思",
+              "start_page": 30
+            },
+            {
+              "number": 6,
+              "title": "上传课堂实录",
+              "start_page": 30
+            },
+            {
+              "number": 7,
+              "title": "上传微课/练习/拓展资源/说课",
+              "start_page": 31
+            },
+            {
+              "number": 8,
+              "title": "参考他人的资源",
+              "start_page": 33
+            },
+            {
+              "number": 9,
+              "title": "引用自己的资源",
+              "start_page": 35
+            },
+            {
+              "number": 10,
+              "title": "提交审核",
+              "start_page": 36
+            },
+            {
+              "number": 11,
+              "title": "设置可见范围",
+              "start_page": 37
+            },
+            {
+              "number": 12,
+              "title": "查看审核详情",
+              "start_page": 38
+            },
+            {
+              "number": 13,
+              "title": "导出与下载",
+              "start_page": 40
+            },
+            {
+              "number": 14,
+              "title": "查看审阅记录",
+              "start_page": 41
+            },
+            {
+              "number": 15,
+              "title": "使用授课模式",
+              "start_page": 42
+            },
+            {
+              "number": 16,
+              "title": "清空成套课程资源",
+              "start_page": 44
+            },
+            {
+              "number": 17,
+              "title": "删除成套课程资源",
+              "start_page": 44
+            }
+          ]
+        },
+        {
+          "id": "02-04",
+          "chapter_number": 2,
+          "section_number": 4,
+          "chapter": "二、课程资源",
+          "title": "协同备课",
+          "start_page": 45,
+          "end_page": 50,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "开启与关闭协同备课",
+              "start_page": 45
+            },
+            {
+              "number": 2,
+              "title": "进入协同备课",
+              "start_page": 46
+            },
+            {
+              "number": 3,
+              "title": "添加与移除协作人",
+              "start_page": 47
+            },
+            {
+              "number": 4,
+              "title": "与协作人一起备课",
+              "start_page": 48
+            },
+            {
+              "number": 5,
+              "title": "备课时的研讨",
+              "start_page": 49
+            },
+            {
+              "number": 6,
+              "title": "查看协作日志",
+              "start_page": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "三、专题资源",
+      "title": "专题资源",
+      "start_page": 51,
+      "sections": [
+        {
+          "id": "03-01",
+          "chapter_number": 3,
+          "section_number": 1,
+          "chapter": "三、专题资源",
+          "title": "浏览专题资源",
+          "start_page": 51,
+          "end_page": 51,
+          "subsections": []
+        },
+        {
+          "id": "03-02",
+          "chapter_number": 3,
+          "section_number": 2,
+          "chapter": "三、专题资源",
+          "title": "上传专题资源",
+          "start_page": 51,
+          "end_page": 51,
+          "subsections": []
+        },
+        {
+          "id": "03-03",
+          "chapter_number": 3,
+          "section_number": 3,
+          "chapter": "三、专题资源",
+          "title": "编辑专题资源",
+          "start_page": 52,
+          "end_page": 52,
+          "subsections": []
+        },
+        {
+          "id": "03-04",
+          "chapter_number": 3,
+          "section_number": 4,
+          "chapter": "三、专题资源",
+          "title": "查看审核详情",
+          "start_page": 52,
+          "end_page": 52,
+          "subsections": []
+        },
+        {
+          "id": "03-05",
+          "chapter_number": 3,
+          "section_number": 5,
+          "chapter": "三、专题资源",
+          "title": "删除专题资源",
+          "start_page": 53,
+          "end_page": 53,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "四、观课议课",
+      "title": "观课议课",
+      "start_page": 53,
+      "sections": [
+        {
+          "id": "04-01",
+          "chapter_number": 4,
+          "section_number": 1,
+          "chapter": "四、观课议课",
+          "title": "发布公开课",
+          "start_page": 53,
+          "end_page": 84,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "发布现场公开课",
+              "start_page": 53
+            },
+            {
+              "number": 2,
+              "title": "发布录播课",
+              "start_page": 60
+            },
+            {
+              "number": 3,
+              "title": "发布直播课",
+              "start_page": 64
+            },
+            {
+              "number": 4,
+              "title": "使用手机直播公开课",
+              "start_page": 67
+            },
+            {
+              "number": 5,
+              "title": "使用电脑直播公开课",
+              "start_page": 74
+            },
+            {
+              "number": 6,
+              "title": "设置、补充我的公开课资料",
+              "start_page": 78
+            },
+            {
+              "number": 7,
+              "title": "查看收到的听评课记录",
+              "start_page": 81
+            },
+            {
+              "number": 8,
+              "title": "分享公开课链接",
+              "start_page": 83
+            }
+          ]
+        },
+        {
+          "id": "04-02",
+          "chapter_number": 4,
+          "section_number": 2,
+          "chapter": "四、观课议课",
+          "title": "观课议课",
+          "start_page": 85,
+          "end_page": 136,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "在电脑上听课",
+              "start_page": 85
+            },
+            {
+              "number": 2,
+              "title": "在电脑上写听课记录",
+              "start_page": 86
+            },
+            {
+              "number": 3,
+              "title": "在电脑上评课",
+              "start_page": 90
+            },
+            {
+              "number": 4,
+              "title": "在电脑上查看听评课记录",
+              "start_page": 93
+            },
+            {
+              "number": 5,
+              "title": "在电脑上修改听评课记录",
+              "start_page": 94
+            },
+            {
+              "number": 6,
+              "title": "整理听课、评课记录",
+              "start_page": 96
+            },
+            {
+              "number": 7,
+              "title": "在手机上听课",
+              "start_page": 99
+            },
+            {
+              "number": 8,
+              "title": "收藏手机听评课页面",
+              "start_page": 101
+            },
+            {
+              "number": 9,
+              "title": "在手机上写听课记录",
+              "start_page": 105
+            },
+            {
+              "number": 10,
+              "title": "在手机上评课",
+              "start_page": 108
+            },
+            {
+              "number": 11,
+              "title": "在手机上查看听评课记录",
+              "start_page": 110
+            },
+            {
+              "number": 12,
+              "title": "在手机上修改听评课记录",
+              "start_page": 111
+            },
+            {
+              "number": 13,
+              "title": "推门听课与出访听课",
+              "start_page": 117
+            },
+            {
+              "number": 14,
+              "title": "订阅公开课",
+              "start_page": 120
+            },
+            {
+              "number": 15,
+              "title": "下载听评课记录",
+              "start_page": 124
+            },
+            {
+              "number": 16,
+              "title": "删除听评课记录",
+              "start_page": 130
+            }
+          ]
+        },
+        {
+          "id": "04-03",
+          "chapter_number": 4,
+          "section_number": 3,
+          "chapter": "四、观课议课",
+          "title": "听课本",
+          "start_page": 137,
+          "end_page": 142,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "我的听课本",
+              "start_page": 137
+            },
+            {
+              "number": 2,
+              "title": "新建、修改、删除听课本",
+              "start_page": 138
+            },
+            {
+              "number": 3,
+              "title": "设为常用听课本",
+              "start_page": 140
+            },
+            {
+              "number": 4,
+              "title": "在听课本中迁移听课笔",
+              "start_page": 140
+            },
+            {
+              "number": 5,
+              "title": "查看听课本审阅记录",
+              "start_page": 141
+            },
+            {
+              "number": 6,
+              "title": "导出与下载听课本",
+              "start_page": 142
+            }
+          ]
+        },
+        {
+          "id": "04-04",
+          "chapter_number": 4,
+          "section_number": 4,
+          "chapter": "四、观课议课",
+          "title": "听课任务",
+          "start_page": 143,
+          "end_page": 144,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "查看听课任务",
+              "start_page": 144
+            },
+            {
+              "number": 2,
+              "title": "完成听课任务",
+              "start_page": 144
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "五、集体教研",
+      "title": "集体教研",
+      "start_page": 145,
+      "sections": [
+        {
+          "id": "05-01",
+          "chapter_number": 5,
+          "section_number": 1,
+          "chapter": "五、集体教研",
+          "title": "查找集体备课",
+          "start_page": 145,
+          "end_page": 145,
+          "subsections": []
+        },
+        {
+          "id": "05-02",
+          "chapter_number": 5,
+          "section_number": 2,
+          "chapter": "五、集体教研",
+          "title": "发起集体备课",
+          "start_page": 145,
+          "end_page": 145,
+          "subsections": []
+        },
+        {
+          "id": "05-03",
+          "chapter_number": 5,
+          "section_number": 3,
+          "chapter": "五、集体教研",
+          "title": "修改集体备课信息",
+          "start_page": 146,
+          "end_page": 146,
+          "subsections": []
+        },
+        {
+          "id": "05-04",
+          "chapter_number": 5,
+          "section_number": 4,
+          "chapter": "五、集体教研",
+          "title": "主备人主持集体备课",
+          "start_page": 147,
+          "end_page": 151,
+          "subsections": []
+        },
+        {
+          "id": "05-05",
+          "chapter_number": 5,
+          "section_number": 5,
+          "chapter": "五、集体教研",
+          "title": "参与人参加集体备课",
+          "start_page": 152,
+          "end_page": 152,
+          "subsections": []
+        },
+        {
+          "id": "05-06",
+          "chapter_number": 5,
+          "section_number": 6,
+          "chapter": "五、集体教研",
+          "title": "转让主备人",
+          "start_page": 153,
+          "end_page": 153,
+          "subsections": []
+        },
+        {
+          "id": "05-07",
+          "chapter_number": 5,
+          "section_number": 7,
+          "chapter": "五、集体教研",
+          "title": "退出集体备课",
+          "start_page": 154,
+          "end_page": 154,
+          "subsections": []
+        },
+        {
+          "id": "05-08",
+          "chapter_number": 5,
+          "section_number": 8,
+          "chapter": "五、集体教研",
+          "title": "分享活动链接",
+          "start_page": 154,
+          "end_page": 154,
+          "subsections": []
+        },
+        {
+          "id": "05-09",
+          "chapter_number": 5,
+          "section_number": 9,
+          "chapter": "五、集体教研",
+          "title": "查看集体备课审阅记录",
+          "start_page": 155,
+          "end_page": 155,
+          "subsections": []
+        },
+        {
+          "id": "05-10",
+          "chapter_number": 5,
+          "section_number": 10,
+          "chapter": "五、集体教研",
+          "title": "导出活动成果",
+          "start_page": 156,
+          "end_page": 156,
+          "subsections": []
+        },
+        {
+          "id": "05-11",
+          "chapter_number": 5,
+          "section_number": 11,
+          "chapter": "五、集体教研",
+          "title": "删除集体备课",
+          "start_page": 157,
+          "end_page": 157,
+          "subsections": []
+        },
+        {
+          "id": "05-12",
+          "chapter_number": 5,
+          "section_number": 12,
+          "chapter": "五、集体教研",
+          "title": "查看对我的工作要求",
+          "start_page": 157,
+          "end_page": 157,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "六、线上竞赛",
+      "title": "线上竞赛",
+      "start_page": 158,
+      "sections": [
+        {
+          "id": "06-01",
+          "chapter_number": 6,
+          "section_number": 1,
+          "chapter": "六、线上竞赛",
+          "title": "查看线上竞赛",
+          "start_page": 158,
+          "end_page": 158,
+          "subsections": []
+        },
+        {
+          "id": "06-02",
+          "chapter_number": 6,
+          "section_number": 2,
+          "chapter": "六、线上竞赛",
+          "title": "报名参与竞赛",
+          "start_page": 159,
+          "end_page": 160,
+          "subsections": []
+        },
+        {
+          "id": "06-03",
+          "chapter_number": 6,
+          "section_number": 3,
+          "chapter": "六、线上竞赛",
+          "title": "提交参赛作品",
+          "start_page": 161,
+          "end_page": 165,
+          "subsections": []
+        },
+        {
+          "id": "06-04",
+          "chapter_number": 6,
+          "section_number": 4,
+          "chapter": "六、线上竞赛",
+          "title": "查看竞赛结果",
+          "start_page": 166,
+          "end_page": 166,
+          "subsections": []
+        },
+        {
+          "id": "06-05",
+          "chapter_number": 6,
+          "section_number": 5,
+          "chapter": "六、线上竞赛",
+          "title": "评委评审竞赛作品",
+          "start_page": 167,
+          "end_page": 168,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "七、开放日活动",
+      "title": "开放日活动",
+      "start_page": 169,
+      "sections": [
+        {
+          "id": "07-01",
+          "chapter_number": 7,
+          "section_number": 1,
+          "chapter": "七、开放日活动",
+          "title": "查看开放日活动",
+          "start_page": 169,
+          "end_page": 171,
+          "subsections": []
+        },
+        {
+          "id": "07-02",
+          "chapter_number": 7,
+          "section_number": 2,
+          "chapter": "七、开放日活动",
+          "title": "参与开放日活动",
+          "start_page": 172,
+          "end_page": 175,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "label": "八、话题讨论",
+      "title": "话题讨论",
+      "start_page": 176,
+      "sections": [
+        {
+          "id": "08-01",
+          "chapter_number": 8,
+          "section_number": 1,
+          "chapter": "八、话题讨论",
+          "title": "发布话题",
+          "start_page": 176,
+          "end_page": 176,
+          "subsections": []
+        },
+        {
+          "id": "08-02",
+          "chapter_number": 8,
+          "section_number": 2,
+          "chapter": "八、话题讨论",
+          "title": "编辑或删除话题",
+          "start_page": 177,
+          "end_page": 178,
+          "subsections": []
+        },
+        {
+          "id": "08-03",
+          "chapter_number": 8,
+          "section_number": 3,
+          "chapter": "八、话题讨论",
+          "title": "查看/参与话题",
+          "start_page": 179,
+          "end_page": 179,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "label": "九、培训研修",
+      "title": "培训研修",
+      "start_page": 180,
+      "sections": [
+        {
+          "id": "09-01",
+          "chapter_number": 9,
+          "section_number": 1,
+          "chapter": "九、培训研修",
+          "title": "查看培训研修",
+          "start_page": 180,
+          "end_page": 180,
+          "subsections": []
+        },
+        {
+          "id": "09-02",
+          "chapter_number": 9,
+          "section_number": 2,
+          "chapter": "九、培训研修",
+          "title": "报名培训研修",
+          "start_page": 180,
+          "end_page": 180,
+          "subsections": []
+        },
+        {
+          "id": "09-03",
+          "chapter_number": 9,
+          "section_number": 3,
+          "chapter": "九、培训研修",
+          "title": "参与课程学习",
+          "start_page": 181,
+          "end_page": 181,
+          "subsections": []
+        },
+        {
+          "id": "09-04",
+          "chapter_number": 9,
+          "section_number": 4,
+          "chapter": "九、培训研修",
+          "title": "参与线上研修活动",
+          "start_page": 182,
+          "end_page": 184,
+          "subsections": []
+        },
+        {
+          "id": "09-05",
+          "chapter_number": 9,
+          "section_number": 5,
+          "chapter": "九、培训研修",
+          "title": "发布研修日志",
+          "start_page": 185,
+          "end_page": 186,
+          "subsections": []
+        },
+        {
+          "id": "09-06",
+          "chapter_number": 9,
+          "section_number": 6,
+          "chapter": "九、培训研修",
+          "title": "提交培训作业",
+          "start_page": 187,
+          "end_page": 187,
+          "subsections": []
+        },
+        {
+          "id": "09-07",
+          "chapter_number": 9,
+          "section_number": 7,
+          "chapter": "九、培训研修",
+          "title": "参与交流讨论",
+          "start_page": 188,
+          "end_page": 189,
+          "subsections": []
+        },
+        {
+          "id": "09-08",
+          "chapter_number": 9,
+          "section_number": 8,
+          "chapter": "九、培训研修",
+          "title": "查看培训记录",
+          "start_page": 190,
+          "end_page": 190,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "label": "十、查看积分",
+      "title": "查看积分",
+      "start_page": 191,
+      "sections": [
+        {
+          "id": "10-01",
+          "chapter_number": 10,
+          "section_number": 1,
+          "chapter": "十、查看积分",
+          "title": "查看积分",
+          "start_page": 191,
+          "end_page": 192,
+          "subsections": [],
+          "synthetic": true
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "01-01",
+      "chapter_number": 1,
+      "section_number": 1,
+      "chapter": "一、进入与使用数字教研工作室",
+      "title": "打开数字教研工作室",
+      "start_page": 8,
+      "end_page": 8,
+      "subsections": []
+    },
+    {
+      "id": "01-02",
+      "chapter_number": 1,
+      "section_number": 2,
+      "chapter": "一、进入与使用数字教研工作室",
+      "title": "申请加入工作室",
+      "start_page": 9,
+      "end_page": 10,
+      "subsections": []
+    },
+    {
+      "id": "01-03",
+      "chapter_number": 1,
+      "section_number": 3,
+      "chapter": "一、进入与使用数字教研工作室",
+      "title": "进入工作空间",
+      "start_page": 11,
+      "end_page": 11,
+      "subsections": []
+    },
+    {
+      "id": "01-04",
+      "chapter_number": 1,
+      "section_number": 4,
+      "chapter": "一、进入与使用数字教研工作室",
+      "title": "退出工作室",
+      "start_page": 12,
+      "end_page": 12,
+      "subsections": []
+    },
+    {
+      "id": "02-01",
+      "chapter_number": 2,
+      "section_number": 1,
+      "chapter": "二、课程资源",
+      "title": "浏览课程资源",
+      "start_page": 12,
+      "end_page": 12,
+      "subsections": []
+    },
+    {
+      "id": "02-02",
+      "chapter_number": 2,
+      "section_number": 2,
+      "chapter": "二、课程资源",
+      "title": "备课本管理",
+      "start_page": 13,
+      "end_page": 20,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "创建备课本",
+          "start_page": 13
+        },
+        {
+          "number": 2,
+          "title": "打开我的备课本",
+          "start_page": 16
+        },
+        {
+          "number": 3,
+          "title": "设置常用备课本",
+          "start_page": 17
+        },
+        {
+          "number": 4,
+          "title": "修改备课本",
+          "start_page": 17
+        },
+        {
+          "number": 5,
+          "title": "编辑教学计划",
+          "start_page": 18
+        },
+        {
+          "number": 6,
+          "title": "删除备课本",
+          "start_page": 19
+        },
+        {
+          "number": 7,
+          "title": "导出与下载备课本",
+          "start_page": 20
+        },
+        {
+          "number": 8,
+          "title": "查看备课本审阅记录",
+          "start_page": 21
+        }
+      ]
+    },
+    {
+      "id": "02-03",
+      "chapter_number": 2,
+      "section_number": 3,
+      "chapter": "二、课程资源",
+      "title": "上传成套课程资源",
+      "start_page": 21,
+      "end_page": 44,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "打开课程资源编辑页",
+          "start_page": 21
+        },
+        {
+          "number": 2,
+          "title": "设置课程资源基本信息",
+          "start_page": 22
+        },
+        {
+          "number": 3,
+          "title": "上传教案/学习任务单",
+          "start_page": 24
+        },
+        {
+          "number": 4,
+          "title": "上传课件",
+          "start_page": 28
+        },
+        {
+          "number": 5,
+          "title": "编辑分析/反思",
+          "start_page": 30
+        },
+        {
+          "number": 6,
+          "title": "上传课堂实录",
+          "start_page": 30
+        },
+        {
+          "number": 7,
+          "title": "上传微课/练习/拓展资源/说课",
+          "start_page": 31
+        },
+        {
+          "number": 8,
+          "title": "参考他人的资源",
+          "start_page": 33
+        },
+        {
+          "number": 9,
+          "title": "引用自己的资源",
+          "start_page": 35
+        },
+        {
+          "number": 10,
+          "title": "提交审核",
+          "start_page": 36
+        },
+        {
+          "number": 11,
+          "title": "设置可见范围",
+          "start_page": 37
+        },
+        {
+          "number": 12,
+          "title": "查看审核详情",
+          "start_page": 38
+        },
+        {
+          "number": 13,
+          "title": "导出与下载",
+          "start_page": 40
+        },
+        {
+          "number": 14,
+          "title": "查看审阅记录",
+          "start_page": 41
+        },
+        {
+          "number": 15,
+          "title": "使用授课模式",
+          "start_page": 42
+        },
+        {
+          "number": 16,
+          "title": "清空成套课程资源",
+          "start_page": 44
+        },
+        {
+          "number": 17,
+          "title": "删除成套课程资源",
+          "start_page": 44
+        }
+      ]
+    },
+    {
+      "id": "02-04",
+      "chapter_number": 2,
+      "section_number": 4,
+      "chapter": "二、课程资源",
+      "title": "协同备课",
+      "start_page": 45,
+      "end_page": 50,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "开启与关闭协同备课",
+          "start_page": 45
+        },
+        {
+          "number": 2,
+          "title": "进入协同备课",
+          "start_page": 46
+        },
+        {
+          "number": 3,
+          "title": "添加与移除协作人",
+          "start_page": 47
+        },
+        {
+          "number": 4,
+          "title": "与协作人一起备课",
+          "start_page": 48
+        },
+        {
+          "number": 5,
+          "title": "备课时的研讨",
+          "start_page": 49
+        },
+        {
+          "number": 6,
+          "title": "查看协作日志",
+          "start_page": 50
+        }
+      ]
+    },
+    {
+      "id": "03-01",
+      "chapter_number": 3,
+      "section_number": 1,
+      "chapter": "三、专题资源",
+      "title": "浏览专题资源",
+      "start_page": 51,
+      "end_page": 51,
+      "subsections": []
+    },
+    {
+      "id": "03-02",
+      "chapter_number": 3,
+      "section_number": 2,
+      "chapter": "三、专题资源",
+      "title": "上传专题资源",
+      "start_page": 51,
+      "end_page": 51,
+      "subsections": []
+    },
+    {
+      "id": "03-03",
+      "chapter_number": 3,
+      "section_number": 3,
+      "chapter": "三、专题资源",
+      "title": "编辑专题资源",
+      "start_page": 52,
+      "end_page": 52,
+      "subsections": []
+    },
+    {
+      "id": "03-04",
+      "chapter_number": 3,
+      "section_number": 4,
+      "chapter": "三、专题资源",
+      "title": "查看审核详情",
+      "start_page": 52,
+      "end_page": 52,
+      "subsections": []
+    },
+    {
+      "id": "03-05",
+      "chapter_number": 3,
+      "section_number": 5,
+      "chapter": "三、专题资源",
+      "title": "删除专题资源",
+      "start_page": 53,
+      "end_page": 53,
+      "subsections": []
+    },
+    {
+      "id": "04-01",
+      "chapter_number": 4,
+      "section_number": 1,
+      "chapter": "四、观课议课",
+      "title": "发布公开课",
+      "start_page": 53,
+      "end_page": 84,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "发布现场公开课",
+          "start_page": 53
+        },
+        {
+          "number": 2,
+          "title": "发布录播课",
+          "start_page": 60
+        },
+        {
+          "number": 3,
+          "title": "发布直播课",
+          "start_page": 64
+        },
+        {
+          "number": 4,
+          "title": "使用手机直播公开课",
+          "start_page": 67
+        },
+        {
+          "number": 5,
+          "title": "使用电脑直播公开课",
+          "start_page": 74
+        },
+        {
+          "number": 6,
+          "title": "设置、补充我的公开课资料",
+          "start_page": 78
+        },
+        {
+          "number": 7,
+          "title": "查看收到的听评课记录",
+          "start_page": 81
+        },
+        {
+          "number": 8,
+          "title": "分享公开课链接",
+          "start_page": 83
+        }
+      ]
+    },
+    {
+      "id": "04-02",
+      "chapter_number": 4,
+      "section_number": 2,
+      "chapter": "四、观课议课",
+      "title": "观课议课",
+      "start_page": 85,
+      "end_page": 136,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "在电脑上听课",
+          "start_page": 85
+        },
+        {
+          "number": 2,
+          "title": "在电脑上写听课记录",
+          "start_page": 86
+        },
+        {
+          "number": 3,
+          "title": "在电脑上评课",
+          "start_page": 90
+        },
+        {
+          "number": 4,
+          "title": "在电脑上查看听评课记录",
+          "start_page": 93
+        },
+        {
+          "number": 5,
+          "title": "在电脑上修改听评课记录",
+          "start_page": 94
+        },
+        {
+          "number": 6,
+          "title": "整理听课、评课记录",
+          "start_page": 96
+        },
+        {
+          "number": 7,
+          "title": "在手机上听课",
+          "start_page": 99
+        },
+        {
+          "number": 8,
+          "title": "收藏手机听评课页面",
+          "start_page": 101
+        },
+        {
+          "number": 9,
+          "title": "在手机上写听课记录",
+          "start_page": 105
+        },
+        {
+          "number": 10,
+          "title": "在手机上评课",
+          "start_page": 108
+        },
+        {
+          "number": 11,
+          "title": "在手机上查看听评课记录",
+          "start_page": 110
+        },
+        {
+          "number": 12,
+          "title": "在手机上修改听评课记录",
+          "start_page": 111
+        },
+        {
+          "number": 13,
+          "title": "推门听课与出访听课",
+          "start_page": 117
+        },
+        {
+          "number": 14,
+          "title": "订阅公开课",
+          "start_page": 120
+        },
+        {
+          "number": 15,
+          "title": "下载听评课记录",
+          "start_page": 124
+        },
+        {
+          "number": 16,
+          "title": "删除听评课记录",
+          "start_page": 130
+        }
+      ]
+    },
+    {
+      "id": "04-03",
+      "chapter_number": 4,
+      "section_number": 3,
+      "chapter": "四、观课议课",
+      "title": "听课本",
+      "start_page": 137,
+      "end_page": 142,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "我的听课本",
+          "start_page": 137
+        },
+        {
+          "number": 2,
+          "title": "新建、修改、删除听课本",
+          "start_page": 138
+        },
+        {
+          "number": 3,
+          "title": "设为常用听课本",
+          "start_page": 140
+        },
+        {
+          "number": 4,
+          "title": "在听课本中迁移听课笔",
+          "start_page": 140
+        },
+        {
+          "number": 5,
+          "title": "查看听课本审阅记录",
+          "start_page": 141
+        },
+        {
+          "number": 6,
+          "title": "导出与下载听课本",
+          "start_page": 142
+        }
+      ]
+    },
+    {
+      "id": "04-04",
+      "chapter_number": 4,
+      "section_number": 4,
+      "chapter": "四、观课议课",
+      "title": "听课任务",
+      "start_page": 143,
+      "end_page": 144,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "查看听课任务",
+          "start_page": 144
+        },
+        {
+          "number": 2,
+          "title": "完成听课任务",
+          "start_page": 144
+        }
+      ]
+    },
+    {
+      "id": "05-01",
+      "chapter_number": 5,
+      "section_number": 1,
+      "chapter": "五、集体教研",
+      "title": "查找集体备课",
+      "start_page": 145,
+      "end_page": 145,
+      "subsections": []
+    },
+    {
+      "id": "05-02",
+      "chapter_number": 5,
+      "section_number": 2,
+      "chapter": "五、集体教研",
+      "title": "发起集体备课",
+      "start_page": 145,
+      "end_page": 145,
+      "subsections": []
+    },
+    {
+      "id": "05-03",
+      "chapter_number": 5,
+      "section_number": 3,
+      "chapter": "五、集体教研",
+      "title": "修改集体备课信息",
+      "start_page": 146,
+      "end_page": 146,
+      "subsections": []
+    },
+    {
+      "id": "05-04",
+      "chapter_number": 5,
+      "section_number": 4,
+      "chapter": "五、集体教研",
+      "title": "主备人主持集体备课",
+      "start_page": 147,
+      "end_page": 151,
+      "subsections": []
+    },
+    {
+      "id": "05-05",
+      "chapter_number": 5,
+      "section_number": 5,
+      "chapter": "五、集体教研",
+      "title": "参与人参加集体备课",
+      "start_page": 152,
+      "end_page": 152,
+      "subsections": []
+    },
+    {
+      "id": "05-06",
+      "chapter_number": 5,
+      "section_number": 6,
+      "chapter": "五、集体教研",
+      "title": "转让主备人",
+      "start_page": 153,
+      "end_page": 153,
+      "subsections": []
+    },
+    {
+      "id": "05-07",
+      "chapter_number": 5,
+      "section_number": 7,
+      "chapter": "五、集体教研",
+      "title": "退出集体备课",
+      "start_page": 154,
+      "end_page": 154,
+      "subsections": []
+    },
+    {
+      "id": "05-08",
+      "chapter_number": 5,
+      "section_number": 8,
+      "chapter": "五、集体教研",
+      "title": "分享活动链接",
+      "start_page": 154,
+      "end_page": 154,
+      "subsections": []
+    },
+    {
+      "id": "05-09",
+      "chapter_number": 5,
+      "section_number": 9,
+      "chapter": "五、集体教研",
+      "title": "查看集体备课审阅记录",
+      "start_page": 155,
+      "end_page": 155,
+      "subsections": []
+    },
+    {
+      "id": "05-10",
+      "chapter_number": 5,
+      "section_number": 10,
+      "chapter": "五、集体教研",
+      "title": "导出活动成果",
+      "start_page": 156,
+      "end_page": 156,
+      "subsections": []
+    },
+    {
+      "id": "05-11",
+      "chapter_number": 5,
+      "section_number": 11,
+      "chapter": "五、集体教研",
+      "title": "删除集体备课",
+      "start_page": 157,
+      "end_page": 157,
+      "subsections": []
+    },
+    {
+      "id": "05-12",
+      "chapter_number": 5,
+      "section_number": 12,
+      "chapter": "五、集体教研",
+      "title": "查看对我的工作要求",
+      "start_page": 157,
+      "end_page": 157,
+      "subsections": []
+    },
+    {
+      "id": "06-01",
+      "chapter_number": 6,
+      "section_number": 1,
+      "chapter": "六、线上竞赛",
+      "title": "查看线上竞赛",
+      "start_page": 158,
+      "end_page": 158,
+      "subsections": []
+    },
+    {
+      "id": "06-02",
+      "chapter_number": 6,
+      "section_number": 2,
+      "chapter": "六、线上竞赛",
+      "title": "报名参与竞赛",
+      "start_page": 159,
+      "end_page": 160,
+      "subsections": []
+    },
+    {
+      "id": "06-03",
+      "chapter_number": 6,
+      "section_number": 3,
+      "chapter": "六、线上竞赛",
+      "title": "提交参赛作品",
+      "start_page": 161,
+      "end_page": 165,
+      "subsections": []
+    },
+    {
+      "id": "06-04",
+      "chapter_number": 6,
+      "section_number": 4,
+      "chapter": "六、线上竞赛",
+      "title": "查看竞赛结果",
+      "start_page": 166,
+      "end_page": 166,
+      "subsections": []
+    },
+    {
+      "id": "06-05",
+      "chapter_number": 6,
+      "section_number": 5,
+      "chapter": "六、线上竞赛",
+      "title": "评委评审竞赛作品",
+      "start_page": 167,
+      "end_page": 168,
+      "subsections": []
+    },
+    {
+      "id": "07-01",
+      "chapter_number": 7,
+      "section_number": 1,
+      "chapter": "七、开放日活动",
+      "title": "查看开放日活动",
+      "start_page": 169,
+      "end_page": 171,
+      "subsections": []
+    },
+    {
+      "id": "07-02",
+      "chapter_number": 7,
+      "section_number": 2,
+      "chapter": "七、开放日活动",
+      "title": "参与开放日活动",
+      "start_page": 172,
+      "end_page": 175,
+      "subsections": []
+    },
+    {
+      "id": "08-01",
+      "chapter_number": 8,
+      "section_number": 1,
+      "chapter": "八、话题讨论",
+      "title": "发布话题",
+      "start_page": 176,
+      "end_page": 176,
+      "subsections": []
+    },
+    {
+      "id": "08-02",
+      "chapter_number": 8,
+      "section_number": 2,
+      "chapter": "八、话题讨论",
+      "title": "编辑或删除话题",
+      "start_page": 177,
+      "end_page": 178,
+      "subsections": []
+    },
+    {
+      "id": "08-03",
+      "chapter_number": 8,
+      "section_number": 3,
+      "chapter": "八、话题讨论",
+      "title": "查看/参与话题",
+      "start_page": 179,
+      "end_page": 179,
+      "subsections": []
+    },
+    {
+      "id": "09-01",
+      "chapter_number": 9,
+      "section_number": 1,
+      "chapter": "九、培训研修",
+      "title": "查看培训研修",
+      "start_page": 180,
+      "end_page": 180,
+      "subsections": []
+    },
+    {
+      "id": "09-02",
+      "chapter_number": 9,
+      "section_number": 2,
+      "chapter": "九、培训研修",
+      "title": "报名培训研修",
+      "start_page": 180,
+      "end_page": 180,
+      "subsections": []
+    },
+    {
+      "id": "09-03",
+      "chapter_number": 9,
+      "section_number": 3,
+      "chapter": "九、培训研修",
+      "title": "参与课程学习",
+      "start_page": 181,
+      "end_page": 181,
+      "subsections": []
+    },
+    {
+      "id": "09-04",
+      "chapter_number": 9,
+      "section_number": 4,
+      "chapter": "九、培训研修",
+      "title": "参与线上研修活动",
+      "start_page": 182,
+      "end_page": 184,
+      "subsections": []
+    },
+    {
+      "id": "09-05",
+      "chapter_number": 9,
+      "section_number": 5,
+      "chapter": "九、培训研修",
+      "title": "发布研修日志",
+      "start_page": 185,
+      "end_page": 186,
+      "subsections": []
+    },
+    {
+      "id": "09-06",
+      "chapter_number": 9,
+      "section_number": 6,
+      "chapter": "九、培训研修",
+      "title": "提交培训作业",
+      "start_page": 187,
+      "end_page": 187,
+      "subsections": []
+    },
+    {
+      "id": "09-07",
+      "chapter_number": 9,
+      "section_number": 7,
+      "chapter": "九、培训研修",
+      "title": "参与交流讨论",
+      "start_page": 188,
+      "end_page": 189,
+      "subsections": []
+    },
+    {
+      "id": "09-08",
+      "chapter_number": 9,
+      "section_number": 8,
+      "chapter": "九、培训研修",
+      "title": "查看培训记录",
+      "start_page": 190,
+      "end_page": 190,
+      "subsections": []
+    },
+    {
+      "id": "10-01",
+      "chapter_number": 10,
+      "section_number": 1,
+      "chapter": "十、查看积分",
+      "title": "查看积分",
+      "start_page": 191,
+      "end_page": 192,
+      "subsections": [],
+      "synthetic": true
+    }
+  ]
+}

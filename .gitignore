@@ -1,1 +1,2 @@
-build/manual.pdf
+__pycache__/
+*.py[cod]

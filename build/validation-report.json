@@ -1,0 +1,20 @@
+{
+  "html_pages": 49,
+  "chapter_pages": 48,
+  "image_references": 392,
+  "image_files": 376,
+  "missing_images": 0,
+  "broken_links": 0,
+  "missing_resources": 0,
+  "beginner_route": "pass",
+  "longest_chapter_route": "pass",
+  "mobile_drawer_hooks": "pass",
+  "lightbox_hooks": "pass",
+  "file_protocol_search": "pass",
+  "pdf_spot_checks": [
+    "01-02",
+    "04-01"
+  ],
+  "search_entries": 48,
+  "subsection_warnings": []
+}
