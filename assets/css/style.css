@@ -191,6 +191,32 @@ input {
   line-height: 1.45;
 }
 
+.search-result-snippet {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 6px 0 0;
+  color: #4b5870;
+  font-size: 12px;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.search-snippet-highlight {
+  border-radius: 2px;
+  background: #fff0a8;
+  color: #4a3800;
+  font-weight: 700;
+}
+
+.search-highlight {
+  padding: 0.05em 0.14em;
+  border-radius: 3px;
+  background: #ffdf67;
+  box-shadow: 0 0 0 2px rgba(255, 201, 31, 0.24);
+  color: inherit;
+}
+
 .search-empty {
   margin: 0;
   padding: 12px;
