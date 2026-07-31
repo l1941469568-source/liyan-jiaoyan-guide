@@ -80,6 +80,10 @@ input {
   box-shadow: 8px 0 28px rgba(36, 55, 94, 0.05);
 }
 
+.sidebar-collapse-toggle {
+  display: none;
+}
+
 .sidebar-brand {
   position: sticky;
   z-index: 2;
@@ -531,11 +535,26 @@ input {
   letter-spacing: 0.12em;
 }
 
+.hero-title {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.hero-logo {
+  width: 104px;
+  height: 104px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 22px rgba(5, 18, 50, 0.28));
+}
+
 .hero h1 {
   max-width: 720px;
   margin: 0;
-  font-size: clamp(32px, 5vw, 48px);
+  font-size: clamp(30px, 3.5vw, 36px);
   line-height: 1.28;
+  white-space: nowrap;
 }
 
 .hero p {
@@ -695,6 +714,76 @@ input {
   text-align: center;
 }
 
+@media (min-width: 769px) {
+  .sidebar,
+  .page-shell,
+  .sidebar-collapse-toggle {
+    transition:
+      transform 220ms ease,
+      margin-left 220ms ease,
+      left 220ms ease;
+  }
+
+  .sidebar-collapse-toggle {
+    position: fixed;
+    z-index: 70;
+    top: 24px;
+    left: calc(var(--sidebar-width) - 15px);
+    display: grid;
+    width: 30px;
+    height: 38px;
+    padding: 0;
+    place-items: center;
+    border: 1px solid #d7deea;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 5px 16px rgba(22, 41, 82, 0.1);
+    color: #68758d;
+    cursor: pointer;
+    font-size: 23px;
+    line-height: 1;
+    backdrop-filter: blur(8px);
+  }
+
+  .sidebar-collapse-toggle:hover,
+  .sidebar-collapse-toggle:focus-visible {
+    border-color: #b9c7df;
+    color: var(--brand);
+  }
+
+  .sidebar-collapse-toggle:focus-visible {
+    outline: 3px solid rgba(33, 87, 213, 0.16);
+    outline-offset: 2px;
+  }
+
+  body.sidebar-collapsed .sidebar {
+    transform: translateX(calc(var(--sidebar-width) * -1));
+  }
+
+  body.sidebar-collapsed .page-shell {
+    margin-left: 0;
+  }
+
+  body.sidebar-collapsed .sidebar-collapse-toggle {
+    left: 12px;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+  .hero-title {
+    gap: 14px;
+  }
+
+  .hero-logo {
+    width: 76px;
+    height: 76px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+}
+
 @media (max-width: 980px) {
   .page-shell {
     padding-right: 28px;
@@ -816,7 +905,19 @@ input {
   }
 
   .hero h1 {
-    font-size: 32px;
+    max-width: none;
+    font-size: clamp(16px, 4.6vw, 30px);
+  }
+
+  .hero-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .hero-logo {
+    width: 76px;
+    height: 76px;
   }
 
   .guide-box {
@@ -857,6 +958,7 @@ input {
   }
 
   .sidebar,
+  .sidebar-collapse-toggle,
   .mobile-header,
   .drawer-overlay,
   .breadcrumbs,

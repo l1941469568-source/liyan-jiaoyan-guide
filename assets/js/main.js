@@ -2,6 +2,30 @@
   "use strict";
 
   function initNavigation() {
+    var sidebar = document.getElementById("sidebar");
+    var brandLink = document.querySelector(".sidebar-brand");
+    var brandTitle = document.querySelector(".sidebar-brand .brand-title");
+    var activeSectionLink = document.querySelector(
+      '.nav-sections a[aria-current="page"]',
+    );
+
+    function showCurrentSection(link) {
+      if (!link || !brandTitle) {
+        return;
+      }
+      var sectionTitle = link.textContent.trim();
+      brandTitle.textContent = sectionTitle;
+      if (brandLink) {
+        brandLink.setAttribute("title", "返回手册首页");
+        brandLink.setAttribute(
+          "aria-label",
+          "返回手册首页，当前小节：" + sectionTitle,
+        );
+      }
+    }
+
+    showCurrentSection(activeSectionLink);
+
     document.querySelectorAll(".nav-chapter").forEach(function (chapter) {
       if (chapter.querySelector('[aria-current="page"]')) {
         chapter.open = true;
@@ -12,6 +36,60 @@
 
     var menuButton = document.getElementById("menu-toggle");
     var drawerOverlay = document.getElementById("drawer-overlay");
+    var collapseButton = null;
+
+    function readCollapsedPreference() {
+      try {
+        return localStorage.getItem("manual-sidebar-collapsed") === "true";
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function saveCollapsedPreference(collapsed) {
+      try {
+        localStorage.setItem(
+          "manual-sidebar-collapsed",
+          collapsed ? "true" : "false",
+        );
+      } catch (error) {
+        // Local files can disable storage in some browsers; folding still works.
+      }
+    }
+
+    function setSidebarCollapsed(collapsed, savePreference) {
+      document.body.classList.toggle("sidebar-collapsed", collapsed);
+      if (collapseButton) {
+        collapseButton.setAttribute("aria-expanded", String(!collapsed));
+        collapseButton.setAttribute(
+          "aria-label",
+          collapsed ? "展开章节导航" : "折叠章节导航",
+        );
+        collapseButton.setAttribute(
+          "title",
+          collapsed ? "展开章节导航" : "折叠章节导航",
+        );
+        collapseButton.textContent = collapsed ? "›" : "‹";
+      }
+      if (savePreference) {
+        saveCollapsedPreference(collapsed);
+      }
+    }
+
+    if (sidebar) {
+      collapseButton = document.createElement("button");
+      collapseButton.className = "sidebar-collapse-toggle";
+      collapseButton.type = "button";
+      collapseButton.setAttribute("aria-controls", "sidebar");
+      sidebar.insertAdjacentElement("afterend", collapseButton);
+      setSidebarCollapsed(readCollapsedPreference(), false);
+      collapseButton.addEventListener("click", function () {
+        setSidebarCollapsed(
+          !document.body.classList.contains("sidebar-collapsed"),
+          true,
+        );
+      });
+    }
 
     function setDrawer(open) {
       document.body.classList.toggle("sidebar-open", open);
@@ -32,6 +110,7 @@
     }
     document.querySelectorAll(".nav-sections a").forEach(function (link) {
       link.addEventListener("click", function () {
+        showCurrentSection(link);
         setDrawer(false);
       });
     });
