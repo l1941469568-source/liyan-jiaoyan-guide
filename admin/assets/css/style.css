@@ -1034,3 +1034,21 @@ input {
     break-inside: avoid;
   }
 }
+
+
+/* Administrator manual: subsection numbers are part of the links themselves. */
+.in-page-toc ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Small UI glyphs from the PDF belong inside the surrounding brackets. */
+.inline-icon {
+  display: inline-block;
+  width: auto;
+  height: 1.35em;
+  max-width: 3em;
+  margin: 0 0.12em;
+  vertical-align: -0.28em;
+  object-fit: contain;
+}
