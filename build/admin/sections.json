@@ -1,0 +1,1924 @@
+{
+  "source": "湖南省数字教研工作室操作手册（管理员）.pdf",
+  "page_count": 175,
+  "chapters": [
+    {
+      "number": 1,
+      "label": "一、概述及入口",
+      "title": "概述及入口",
+      "start_page": 8,
+      "sections": [
+        {
+          "id": "01-01",
+          "chapter_number": 1,
+          "section_number": 1,
+          "chapter": "一、概述及入口",
+          "title": "管理人员概述",
+          "start_page": 8,
+          "end_page": 8,
+          "subsections": []
+        },
+        {
+          "id": "01-02",
+          "chapter_number": 1,
+          "section_number": 2,
+          "chapter": "一、概述及入口",
+          "title": "进入工作空间",
+          "start_page": 8,
+          "end_page": 8,
+          "subsections": []
+        },
+        {
+          "id": "01-03",
+          "chapter_number": 1,
+          "section_number": 3,
+          "chapter": "一、概述及入口",
+          "title": "进入管理后台",
+          "start_page": 9,
+          "end_page": 9,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "二、工作室基础配置",
+      "title": "工作室基础配置",
+      "start_page": 9,
+      "sections": [
+        {
+          "id": "02-01",
+          "chapter_number": 2,
+          "section_number": 1,
+          "chapter": "二、工作室基础配置",
+          "title": "设置logo 信息",
+          "start_page": 9,
+          "end_page": 11,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "logo 制作规范",
+              "start_page": 9
+            },
+            {
+              "number": 2,
+              "title": "上传logo",
+              "start_page": 11
+            }
+          ]
+        },
+        {
+          "id": "02-02",
+          "chapter_number": 2,
+          "section_number": 2,
+          "chapter": "二、工作室基础配置",
+          "title": "设置首页背景图",
+          "start_page": 12,
+          "end_page": 12,
+          "subsections": []
+        },
+        {
+          "id": "02-03",
+          "chapter_number": 2,
+          "section_number": 3,
+          "chapter": "二、工作室基础配置",
+          "title": "设置微官网",
+          "start_page": 13,
+          "end_page": 14,
+          "subsections": []
+        },
+        {
+          "id": "02-04",
+          "chapter_number": 2,
+          "section_number": 4,
+          "chapter": "二、工作室基础配置",
+          "title": "设置底部链接",
+          "start_page": 15,
+          "end_page": 16,
+          "subsections": []
+        },
+        {
+          "id": "02-05",
+          "chapter_number": 2,
+          "section_number": 5,
+          "chapter": "二、工作室基础配置",
+          "title": "设置客服联系方式",
+          "start_page": 17,
+          "end_page": 17,
+          "subsections": []
+        },
+        {
+          "id": "02-06",
+          "chapter_number": 2,
+          "section_number": 6,
+          "chapter": "二、工作室基础配置",
+          "title": "设置主导航菜单",
+          "start_page": 18,
+          "end_page": 21,
+          "subsections": []
+        },
+        {
+          "id": "02-07",
+          "chapter_number": 2,
+          "section_number": 7,
+          "chapter": "二、工作室基础配置",
+          "title": "设置顶部快捷导航",
+          "start_page": 22,
+          "end_page": 22,
+          "subsections": []
+        },
+        {
+          "id": "02-08",
+          "chapter_number": 2,
+          "section_number": 8,
+          "chapter": "二、工作室基础配置",
+          "title": "设置侧边栏导航",
+          "start_page": 23,
+          "end_page": 23,
+          "subsections": []
+        },
+        {
+          "id": "02-09",
+          "chapter_number": 2,
+          "section_number": 9,
+          "chapter": "二、工作室基础配置",
+          "title": "设置工作室简介",
+          "start_page": 24,
+          "end_page": 27,
+          "subsections": []
+        },
+        {
+          "id": "02-10",
+          "chapter_number": 2,
+          "section_number": 10,
+          "chapter": "二、工作室基础配置",
+          "title": "设置主持人简介",
+          "start_page": 28,
+          "end_page": 30,
+          "subsections": []
+        },
+        {
+          "id": "02-11",
+          "chapter_number": 2,
+          "section_number": 11,
+          "chapter": "二、工作室基础配置",
+          "title": "设置核心成员简介",
+          "start_page": 31,
+          "end_page": 33,
+          "subsections": []
+        },
+        {
+          "id": "02-12",
+          "chapter_number": 2,
+          "section_number": 12,
+          "chapter": "二、工作室基础配置",
+          "title": "设置轮播图",
+          "start_page": 34,
+          "end_page": 35,
+          "subsections": []
+        },
+        {
+          "id": "02-13",
+          "chapter_number": 2,
+          "section_number": 13,
+          "chapter": "二、工作室基础配置",
+          "title": "设置工作室风采",
+          "start_page": 36,
+          "end_page": 36,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "三、工作室成员管理",
+      "title": "工作室成员管理",
+      "start_page": 37,
+      "sections": [
+        {
+          "id": "03-01",
+          "chapter_number": 3,
+          "section_number": 1,
+          "chapter": "三、工作室成员管理",
+          "title": "审核成员加入申请",
+          "start_page": 37,
+          "end_page": 37,
+          "subsections": []
+        },
+        {
+          "id": "03-02",
+          "chapter_number": 3,
+          "section_number": 2,
+          "chapter": "三、工作室成员管理",
+          "title": "管理工作室成员",
+          "start_page": 38,
+          "end_page": 40,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "查看成员信息",
+              "start_page": 38
+            },
+            {
+              "number": 2,
+              "title": "编辑成员信息",
+              "start_page": 38
+            },
+            {
+              "number": 3,
+              "title": "删除成员",
+              "start_page": 40
+            },
+            {
+              "number": 4,
+              "title": "禁用成员",
+              "start_page": 40
+            }
+          ]
+        },
+        {
+          "id": "03-03",
+          "chapter_number": 3,
+          "section_number": 3,
+          "chapter": "三、工作室成员管理",
+          "title": "管理成员分组",
+          "start_page": 41,
+          "end_page": 41,
+          "subsections": []
+        },
+        {
+          "id": "03-04",
+          "chapter_number": 3,
+          "section_number": 4,
+          "chapter": "三、工作室成员管理",
+          "title": "管理成员角色",
+          "start_page": 42,
+          "end_page": 42,
+          "subsections": []
+        },
+        {
+          "id": "03-05",
+          "chapter_number": 3,
+          "section_number": 5,
+          "chapter": "三、工作室成员管理",
+          "title": "后台管理员管理",
+          "start_page": 42,
+          "end_page": 44,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "查看后台管理员",
+              "start_page": 43
+            },
+            {
+              "number": 2,
+              "title": "新增后台管理员",
+              "start_page": 43
+            },
+            {
+              "number": 3,
+              "title": "编辑后台管理员",
+              "start_page": 43
+            },
+            {
+              "number": 4,
+              "title": "删除后台管理员",
+              "start_page": 44
+            },
+            {
+              "number": 5,
+              "title": "查看后台管理员角色",
+              "start_page": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "四、发布工作室动态",
+      "title": "发布工作室动态",
+      "start_page": 44,
+      "sections": [
+        {
+          "id": "04-01",
+          "chapter_number": 4,
+          "section_number": 1,
+          "chapter": "四、发布工作室动态",
+          "title": "发布活动通知",
+          "start_page": 45,
+          "end_page": 46,
+          "subsections": []
+        },
+        {
+          "id": "04-02",
+          "chapter_number": 4,
+          "section_number": 2,
+          "chapter": "四、发布工作室动态",
+          "title": "发布活动锦集",
+          "start_page": 47,
+          "end_page": 48,
+          "subsections": []
+        },
+        {
+          "id": "04-03",
+          "chapter_number": 4,
+          "section_number": 3,
+          "chapter": "四、发布工作室动态",
+          "title": "首页推荐工作室动态",
+          "start_page": 49,
+          "end_page": 49,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "五、资源审核",
+      "title": "资源审核",
+      "start_page": 50,
+      "sections": [
+        {
+          "id": "05-01",
+          "chapter_number": 5,
+          "section_number": 1,
+          "chapter": "五、资源审核",
+          "title": "课程资源审核",
+          "start_page": 50,
+          "end_page": 51,
+          "subsections": []
+        },
+        {
+          "id": "05-02",
+          "chapter_number": 5,
+          "section_number": 2,
+          "chapter": "五、资源审核",
+          "title": "专题资源审核",
+          "start_page": 52,
+          "end_page": 52,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "六、课程资源管理",
+      "title": "课程资源管理",
+      "start_page": 53,
+      "sections": [
+        {
+          "id": "06-01",
+          "chapter_number": 6,
+          "section_number": 1,
+          "chapter": "六、课程资源管理",
+          "title": "抽查备课本",
+          "start_page": 53,
+          "end_page": 54,
+          "subsections": []
+        },
+        {
+          "id": "06-02",
+          "chapter_number": 6,
+          "section_number": 2,
+          "chapter": "六、课程资源管理",
+          "title": "查看我的审阅记录",
+          "start_page": 55,
+          "end_page": 55,
+          "subsections": []
+        },
+        {
+          "id": "06-03",
+          "chapter_number": 6,
+          "section_number": 3,
+          "chapter": "六、课程资源管理",
+          "title": "管理课程资源",
+          "start_page": 56,
+          "end_page": 56,
+          "subsections": []
+        },
+        {
+          "id": "06-04",
+          "chapter_number": 6,
+          "section_number": 4,
+          "chapter": "六、课程资源管理",
+          "title": "查看督导分析",
+          "start_page": 57,
+          "end_page": 57,
+          "subsections": []
+        },
+        {
+          "id": "06-05",
+          "chapter_number": 6,
+          "section_number": 5,
+          "chapter": "六、课程资源管理",
+          "title": "设置备课本统一封面",
+          "start_page": 58,
+          "end_page": 58,
+          "subsections": []
+        },
+        {
+          "id": "06-06",
+          "chapter_number": 6,
+          "section_number": 6,
+          "chapter": "六、课程资源管理",
+          "title": "设置教案编写要求",
+          "start_page": 58,
+          "end_page": 59,
+          "subsections": []
+        },
+        {
+          "id": "06-07",
+          "chapter_number": 6,
+          "section_number": 7,
+          "chapter": "六、课程资源管理",
+          "title": "设置学习任务单编写要求",
+          "start_page": 60,
+          "end_page": 60,
+          "subsections": []
+        },
+        {
+          "id": "06-08",
+          "chapter_number": 6,
+          "section_number": 8,
+          "chapter": "六、课程资源管理",
+          "title": "设置教学计划编写要求",
+          "start_page": 61,
+          "end_page": 61,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "七、专题资源管理",
+      "title": "专题资源管理",
+      "start_page": 61,
+      "sections": [
+        {
+          "id": "07-01",
+          "chapter_number": 7,
+          "section_number": 1,
+          "chapter": "七、专题资源管理",
+          "title": "管理专题资源分类",
+          "start_page": 61,
+          "end_page": 63,
+          "subsections": []
+        },
+        {
+          "id": "07-02",
+          "chapter_number": 7,
+          "section_number": 2,
+          "chapter": "七、专题资源管理",
+          "title": "管理专题资源",
+          "start_page": 64,
+          "end_page": 65,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "查看专题资源",
+              "start_page": 64
+            },
+            {
+              "number": 2,
+              "title": "编辑专题资源",
+              "start_page": 64
+            },
+            {
+              "number": 3,
+              "title": "查看审核详情",
+              "start_page": 65
+            },
+            {
+              "number": 4,
+              "title": "删除专题资源",
+              "start_page": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "label": "八、观课议课",
+      "title": "观课议课",
+      "start_page": 66,
+      "sections": [
+        {
+          "id": "08-01",
+          "chapter_number": 8,
+          "section_number": 1,
+          "chapter": "八、观课议课",
+          "title": "抽查听课本",
+          "start_page": 66,
+          "end_page": 66,
+          "subsections": []
+        },
+        {
+          "id": "08-02",
+          "chapter_number": 8,
+          "section_number": 2,
+          "chapter": "八、观课议课",
+          "title": "查看我的审阅记录",
+          "start_page": 67,
+          "end_page": 67,
+          "subsections": []
+        },
+        {
+          "id": "08-03",
+          "chapter_number": 8,
+          "section_number": 3,
+          "chapter": "八、观课议课",
+          "title": "设置整体工作要求",
+          "start_page": 68,
+          "end_page": 69,
+          "subsections": []
+        },
+        {
+          "id": "08-04",
+          "chapter_number": 8,
+          "section_number": 4,
+          "chapter": "八、观课议课",
+          "title": "管理公开课",
+          "start_page": 70,
+          "end_page": 73,
+          "subsections": []
+        },
+        {
+          "id": "08-05",
+          "chapter_number": 8,
+          "section_number": 5,
+          "chapter": "八、观课议课",
+          "title": "设置听课本封面",
+          "start_page": 74,
+          "end_page": 74,
+          "subsections": []
+        },
+        {
+          "id": "08-06",
+          "chapter_number": 8,
+          "section_number": 6,
+          "chapter": "八、观课议课",
+          "title": "设置听课记录模板",
+          "start_page": 75,
+          "end_page": 75,
+          "subsections": []
+        },
+        {
+          "id": "08-07",
+          "chapter_number": 8,
+          "section_number": 7,
+          "chapter": "八、观课议课",
+          "title": "设置评分量表",
+          "start_page": 76,
+          "end_page": 78,
+          "subsections": []
+        },
+        {
+          "id": "08-08",
+          "chapter_number": 8,
+          "section_number": 8,
+          "chapter": "八、观课议课",
+          "title": "其他设置",
+          "start_page": 79,
+          "end_page": 79,
+          "subsections": []
+        },
+        {
+          "id": "08-09",
+          "chapter_number": 8,
+          "section_number": 9,
+          "chapter": "八、观课议课",
+          "title": "查看直播时长消耗记录",
+          "start_page": 79,
+          "end_page": 79,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "label": "九、集体教研",
+      "title": "集体教研",
+      "start_page": 80,
+      "sections": [
+        {
+          "id": "09-01",
+          "chapter_number": 9,
+          "section_number": 1,
+          "chapter": "九、集体教研",
+          "title": "抽查活动情况",
+          "start_page": 80,
+          "end_page": 80,
+          "subsections": []
+        },
+        {
+          "id": "09-02",
+          "chapter_number": 9,
+          "section_number": 2,
+          "chapter": "九、集体教研",
+          "title": "查看我的审阅记录",
+          "start_page": 81,
+          "end_page": 81,
+          "subsections": []
+        },
+        {
+          "id": "09-03",
+          "chapter_number": 9,
+          "section_number": 3,
+          "chapter": "九、集体教研",
+          "title": "设置整体工作要求",
+          "start_page": 82,
+          "end_page": 82,
+          "subsections": []
+        },
+        {
+          "id": "09-04",
+          "chapter_number": 9,
+          "section_number": 4,
+          "chapter": "九、集体教研",
+          "title": "查看督导分析",
+          "start_page": 82,
+          "end_page": 82,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "label": "十、线上竞赛",
+      "title": "线上竞赛",
+      "start_page": 83,
+      "sections": [
+        {
+          "id": "10-01",
+          "chapter_number": 10,
+          "section_number": 1,
+          "chapter": "十、线上竞赛",
+          "title": "发起线上竞赛",
+          "start_page": 83,
+          "end_page": 88,
+          "subsections": []
+        },
+        {
+          "id": "10-02",
+          "chapter_number": 10,
+          "section_number": 2,
+          "chapter": "十、线上竞赛",
+          "title": "管理竞赛活动",
+          "start_page": 89,
+          "end_page": 116,
+          "subsections": [
+            {
+              "number": 5,
+              "title": "编辑基本配置",
+              "start_page": 89
+            },
+            {
+              "number": 6,
+              "title": "设置首页主推内容",
+              "start_page": 91
+            },
+            {
+              "number": 7,
+              "title": "设置推荐位",
+              "start_page": 93
+            },
+            {
+              "number": 8,
+              "title": "发布公告",
+              "start_page": 95
+            },
+            {
+              "number": 9,
+              "title": "查看参赛选手",
+              "start_page": 97
+            },
+            {
+              "number": 10,
+              "title": "设置评审规则",
+              "start_page": 99
+            },
+            {
+              "number": 11,
+              "title": "设置评分模板",
+              "start_page": 101
+            },
+            {
+              "number": 12,
+              "title": "设置评委",
+              "start_page": 103
+            },
+            {
+              "number": 13,
+              "title": "分配评审任务",
+              "start_page": 106
+            },
+            {
+              "number": 14,
+              "title": "跟踪评审进度",
+              "start_page": 112
+            },
+            {
+              "number": 15,
+              "title": "设置评奖",
+              "start_page": 112
+            },
+            {
+              "number": 16,
+              "title": "设置结果公示",
+              "start_page": 113
+            },
+            {
+              "number": 17,
+              "title": "设置常见问题",
+              "start_page": 114
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "label": "十一、开放日活动",
+      "title": "开放日活动",
+      "start_page": 117,
+      "sections": [
+        {
+          "id": "11-01",
+          "chapter_number": 11,
+          "section_number": 1,
+          "chapter": "十一、开放日活动",
+          "title": "发布开放日活动",
+          "start_page": 117,
+          "end_page": 120,
+          "subsections": []
+        },
+        {
+          "id": "11-02",
+          "chapter_number": 11,
+          "section_number": 2,
+          "chapter": "十一、开放日活动",
+          "title": "管理开放日活动",
+          "start_page": 121,
+          "end_page": 127,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "查看报名/签到统计",
+              "start_page": 121
+            },
+            {
+              "number": 2,
+              "title": "查看活动展示的公开课",
+              "start_page": 122
+            },
+            {
+              "number": 3,
+              "title": "设置推荐信息",
+              "start_page": 123
+            },
+            {
+              "number": 4,
+              "title": "编辑/删除开放日活动",
+              "start_page": 126
+            },
+            {
+              "number": 5,
+              "title": "分享开放日活动",
+              "start_page": 128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "label": "十二、话题讨论",
+      "title": "话题讨论",
+      "start_page": 128,
+      "sections": [
+        {
+          "id": "12-01",
+          "chapter_number": 12,
+          "section_number": 1,
+          "chapter": "十二、话题讨论",
+          "title": "管理话题分类",
+          "start_page": 128,
+          "end_page": 130,
+          "subsections": []
+        },
+        {
+          "id": "12-02",
+          "chapter_number": 12,
+          "section_number": 2,
+          "chapter": "十二、话题讨论",
+          "title": "管理话题内容",
+          "start_page": 131,
+          "end_page": 135,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "label": "十三、培训研修",
+      "title": "培训研修",
+      "start_page": 136,
+      "sections": [
+        {
+          "id": "13-01",
+          "chapter_number": 13,
+          "section_number": 1,
+          "chapter": "十三、培训研修",
+          "title": "创建培训项目",
+          "start_page": 136,
+          "end_page": 141,
+          "subsections": []
+        },
+        {
+          "id": "13-02",
+          "chapter_number": 13,
+          "section_number": 2,
+          "chapter": "十三、培训研修",
+          "title": "管理培训项目",
+          "start_page": 142,
+          "end_page": 158,
+          "subsections": [
+            {
+              "number": 1,
+              "title": "编辑项目基本信息",
+              "start_page": 142
+            },
+            {
+              "number": 2,
+              "title": "编辑报名与考核要求",
+              "start_page": 143
+            },
+            {
+              "number": 3,
+              "title": "课程安排",
+              "start_page": 145
+            },
+            {
+              "number": 4,
+              "title": "研修活动管理",
+              "start_page": 146
+            },
+            {
+              "number": 5,
+              "title": "项目公告管理",
+              "start_page": 148
+            },
+            {
+              "number": 6,
+              "title": "项目简报管理",
+              "start_page": 150
+            },
+            {
+              "number": 7,
+              "title": "日志管理",
+              "start_page": 152
+            },
+            {
+              "number": 8,
+              "title": "作业管理",
+              "start_page": 153
+            },
+            {
+              "number": 9,
+              "title": "讨论管理",
+              "start_page": 155
+            },
+            {
+              "number": 10,
+              "title": "学员管理",
+              "start_page": 156
+            }
+          ]
+        },
+        {
+          "id": "13-03",
+          "chapter_number": 13,
+          "section_number": 3,
+          "chapter": "十三、培训研修",
+          "title": "删除培训项目",
+          "start_page": 159,
+          "end_page": 159,
+          "subsections": []
+        },
+        {
+          "id": "13-04",
+          "chapter_number": 13,
+          "section_number": 4,
+          "chapter": "十三、培训研修",
+          "title": "下架培训项目",
+          "start_page": 160,
+          "end_page": 160,
+          "subsections": []
+        },
+        {
+          "id": "13-05",
+          "chapter_number": 13,
+          "section_number": 5,
+          "chapter": "十三、培训研修",
+          "title": "培训课管理",
+          "start_page": 161,
+          "end_page": 163,
+          "subsections": []
+        },
+        {
+          "id": "13-06",
+          "chapter_number": 13,
+          "section_number": 6,
+          "chapter": "十三、培训研修",
+          "title": "文件中转站",
+          "start_page": 164,
+          "end_page": 164,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "label": "十四、首页优秀内容推荐",
+      "title": "首页优秀内容推荐",
+      "start_page": 165,
+      "sections": [
+        {
+          "id": "14-01",
+          "chapter_number": 14,
+          "section_number": 1,
+          "chapter": "十四、首页优秀内容推荐",
+          "title": "推荐优秀课程资源",
+          "start_page": 165,
+          "end_page": 166,
+          "subsections": []
+        },
+        {
+          "id": "14-02",
+          "chapter_number": 14,
+          "section_number": 2,
+          "chapter": "十四、首页优秀内容推荐",
+          "title": "推荐优秀专题资源",
+          "start_page": 167,
+          "end_page": 167,
+          "subsections": []
+        },
+        {
+          "id": "14-03",
+          "chapter_number": 14,
+          "section_number": 3,
+          "chapter": "十四、首页优秀内容推荐",
+          "title": "推荐优秀公开课",
+          "start_page": 168,
+          "end_page": 168,
+          "subsections": []
+        },
+        {
+          "id": "14-04",
+          "chapter_number": 14,
+          "section_number": 4,
+          "chapter": "十四、首页优秀内容推荐",
+          "title": "推荐优秀听评课记录",
+          "start_page": 169,
+          "end_page": 170,
+          "subsections": []
+        },
+        {
+          "id": "14-05",
+          "chapter_number": 14,
+          "section_number": 5,
+          "chapter": "十四、首页优秀内容推荐",
+          "title": "推荐优秀集体备课",
+          "start_page": 171,
+          "end_page": 171,
+          "subsections": []
+        },
+        {
+          "id": "14-06",
+          "chapter_number": 14,
+          "section_number": 6,
+          "chapter": "十四、首页优秀内容推荐",
+          "title": "推荐热门活动",
+          "start_page": 172,
+          "end_page": 172,
+          "subsections": []
+        },
+        {
+          "id": "14-07",
+          "chapter_number": 14,
+          "section_number": 7,
+          "chapter": "十四、首页优秀内容推荐",
+          "title": "推荐培训研修",
+          "start_page": 173,
+          "end_page": 175,
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "01-01",
+      "chapter_number": 1,
+      "section_number": 1,
+      "chapter": "一、概述及入口",
+      "title": "管理人员概述",
+      "start_page": 8,
+      "end_page": 8,
+      "subsections": []
+    },
+    {
+      "id": "01-02",
+      "chapter_number": 1,
+      "section_number": 2,
+      "chapter": "一、概述及入口",
+      "title": "进入工作空间",
+      "start_page": 8,
+      "end_page": 8,
+      "subsections": []
+    },
+    {
+      "id": "01-03",
+      "chapter_number": 1,
+      "section_number": 3,
+      "chapter": "一、概述及入口",
+      "title": "进入管理后台",
+      "start_page": 9,
+      "end_page": 9,
+      "subsections": []
+    },
+    {
+      "id": "02-01",
+      "chapter_number": 2,
+      "section_number": 1,
+      "chapter": "二、工作室基础配置",
+      "title": "设置logo 信息",
+      "start_page": 9,
+      "end_page": 11,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "logo 制作规范",
+          "start_page": 9
+        },
+        {
+          "number": 2,
+          "title": "上传logo",
+          "start_page": 11
+        }
+      ]
+    },
+    {
+      "id": "02-02",
+      "chapter_number": 2,
+      "section_number": 2,
+      "chapter": "二、工作室基础配置",
+      "title": "设置首页背景图",
+      "start_page": 12,
+      "end_page": 12,
+      "subsections": []
+    },
+    {
+      "id": "02-03",
+      "chapter_number": 2,
+      "section_number": 3,
+      "chapter": "二、工作室基础配置",
+      "title": "设置微官网",
+      "start_page": 13,
+      "end_page": 14,
+      "subsections": []
+    },
+    {
+      "id": "02-04",
+      "chapter_number": 2,
+      "section_number": 4,
+      "chapter": "二、工作室基础配置",
+      "title": "设置底部链接",
+      "start_page": 15,
+      "end_page": 16,
+      "subsections": []
+    },
+    {
+      "id": "02-05",
+      "chapter_number": 2,
+      "section_number": 5,
+      "chapter": "二、工作室基础配置",
+      "title": "设置客服联系方式",
+      "start_page": 17,
+      "end_page": 17,
+      "subsections": []
+    },
+    {
+      "id": "02-06",
+      "chapter_number": 2,
+      "section_number": 6,
+      "chapter": "二、工作室基础配置",
+      "title": "设置主导航菜单",
+      "start_page": 18,
+      "end_page": 21,
+      "subsections": []
+    },
+    {
+      "id": "02-07",
+      "chapter_number": 2,
+      "section_number": 7,
+      "chapter": "二、工作室基础配置",
+      "title": "设置顶部快捷导航",
+      "start_page": 22,
+      "end_page": 22,
+      "subsections": []
+    },
+    {
+      "id": "02-08",
+      "chapter_number": 2,
+      "section_number": 8,
+      "chapter": "二、工作室基础配置",
+      "title": "设置侧边栏导航",
+      "start_page": 23,
+      "end_page": 23,
+      "subsections": []
+    },
+    {
+      "id": "02-09",
+      "chapter_number": 2,
+      "section_number": 9,
+      "chapter": "二、工作室基础配置",
+      "title": "设置工作室简介",
+      "start_page": 24,
+      "end_page": 27,
+      "subsections": []
+    },
+    {
+      "id": "02-10",
+      "chapter_number": 2,
+      "section_number": 10,
+      "chapter": "二、工作室基础配置",
+      "title": "设置主持人简介",
+      "start_page": 28,
+      "end_page": 30,
+      "subsections": []
+    },
+    {
+      "id": "02-11",
+      "chapter_number": 2,
+      "section_number": 11,
+      "chapter": "二、工作室基础配置",
+      "title": "设置核心成员简介",
+      "start_page": 31,
+      "end_page": 33,
+      "subsections": []
+    },
+    {
+      "id": "02-12",
+      "chapter_number": 2,
+      "section_number": 12,
+      "chapter": "二、工作室基础配置",
+      "title": "设置轮播图",
+      "start_page": 34,
+      "end_page": 35,
+      "subsections": []
+    },
+    {
+      "id": "02-13",
+      "chapter_number": 2,
+      "section_number": 13,
+      "chapter": "二、工作室基础配置",
+      "title": "设置工作室风采",
+      "start_page": 36,
+      "end_page": 36,
+      "subsections": []
+    },
+    {
+      "id": "03-01",
+      "chapter_number": 3,
+      "section_number": 1,
+      "chapter": "三、工作室成员管理",
+      "title": "审核成员加入申请",
+      "start_page": 37,
+      "end_page": 37,
+      "subsections": []
+    },
+    {
+      "id": "03-02",
+      "chapter_number": 3,
+      "section_number": 2,
+      "chapter": "三、工作室成员管理",
+      "title": "管理工作室成员",
+      "start_page": 38,
+      "end_page": 40,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "查看成员信息",
+          "start_page": 38
+        },
+        {
+          "number": 2,
+          "title": "编辑成员信息",
+          "start_page": 38
+        },
+        {
+          "number": 3,
+          "title": "删除成员",
+          "start_page": 40
+        },
+        {
+          "number": 4,
+          "title": "禁用成员",
+          "start_page": 40
+        }
+      ]
+    },
+    {
+      "id": "03-03",
+      "chapter_number": 3,
+      "section_number": 3,
+      "chapter": "三、工作室成员管理",
+      "title": "管理成员分组",
+      "start_page": 41,
+      "end_page": 41,
+      "subsections": []
+    },
+    {
+      "id": "03-04",
+      "chapter_number": 3,
+      "section_number": 4,
+      "chapter": "三、工作室成员管理",
+      "title": "管理成员角色",
+      "start_page": 42,
+      "end_page": 42,
+      "subsections": []
+    },
+    {
+      "id": "03-05",
+      "chapter_number": 3,
+      "section_number": 5,
+      "chapter": "三、工作室成员管理",
+      "title": "后台管理员管理",
+      "start_page": 42,
+      "end_page": 44,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "查看后台管理员",
+          "start_page": 43
+        },
+        {
+          "number": 2,
+          "title": "新增后台管理员",
+          "start_page": 43
+        },
+        {
+          "number": 3,
+          "title": "编辑后台管理员",
+          "start_page": 43
+        },
+        {
+          "number": 4,
+          "title": "删除后台管理员",
+          "start_page": 44
+        },
+        {
+          "number": 5,
+          "title": "查看后台管理员角色",
+          "start_page": 44
+        }
+      ]
+    },
+    {
+      "id": "04-01",
+      "chapter_number": 4,
+      "section_number": 1,
+      "chapter": "四、发布工作室动态",
+      "title": "发布活动通知",
+      "start_page": 45,
+      "end_page": 46,
+      "subsections": []
+    },
+    {
+      "id": "04-02",
+      "chapter_number": 4,
+      "section_number": 2,
+      "chapter": "四、发布工作室动态",
+      "title": "发布活动锦集",
+      "start_page": 47,
+      "end_page": 48,
+      "subsections": []
+    },
+    {
+      "id": "04-03",
+      "chapter_number": 4,
+      "section_number": 3,
+      "chapter": "四、发布工作室动态",
+      "title": "首页推荐工作室动态",
+      "start_page": 49,
+      "end_page": 49,
+      "subsections": []
+    },
+    {
+      "id": "05-01",
+      "chapter_number": 5,
+      "section_number": 1,
+      "chapter": "五、资源审核",
+      "title": "课程资源审核",
+      "start_page": 50,
+      "end_page": 51,
+      "subsections": []
+    },
+    {
+      "id": "05-02",
+      "chapter_number": 5,
+      "section_number": 2,
+      "chapter": "五、资源审核",
+      "title": "专题资源审核",
+      "start_page": 52,
+      "end_page": 52,
+      "subsections": []
+    },
+    {
+      "id": "06-01",
+      "chapter_number": 6,
+      "section_number": 1,
+      "chapter": "六、课程资源管理",
+      "title": "抽查备课本",
+      "start_page": 53,
+      "end_page": 54,
+      "subsections": []
+    },
+    {
+      "id": "06-02",
+      "chapter_number": 6,
+      "section_number": 2,
+      "chapter": "六、课程资源管理",
+      "title": "查看我的审阅记录",
+      "start_page": 55,
+      "end_page": 55,
+      "subsections": []
+    },
+    {
+      "id": "06-03",
+      "chapter_number": 6,
+      "section_number": 3,
+      "chapter": "六、课程资源管理",
+      "title": "管理课程资源",
+      "start_page": 56,
+      "end_page": 56,
+      "subsections": []
+    },
+    {
+      "id": "06-04",
+      "chapter_number": 6,
+      "section_number": 4,
+      "chapter": "六、课程资源管理",
+      "title": "查看督导分析",
+      "start_page": 57,
+      "end_page": 57,
+      "subsections": []
+    },
+    {
+      "id": "06-05",
+      "chapter_number": 6,
+      "section_number": 5,
+      "chapter": "六、课程资源管理",
+      "title": "设置备课本统一封面",
+      "start_page": 58,
+      "end_page": 58,
+      "subsections": []
+    },
+    {
+      "id": "06-06",
+      "chapter_number": 6,
+      "section_number": 6,
+      "chapter": "六、课程资源管理",
+      "title": "设置教案编写要求",
+      "start_page": 58,
+      "end_page": 59,
+      "subsections": []
+    },
+    {
+      "id": "06-07",
+      "chapter_number": 6,
+      "section_number": 7,
+      "chapter": "六、课程资源管理",
+      "title": "设置学习任务单编写要求",
+      "start_page": 60,
+      "end_page": 60,
+      "subsections": []
+    },
+    {
+      "id": "06-08",
+      "chapter_number": 6,
+      "section_number": 8,
+      "chapter": "六、课程资源管理",
+      "title": "设置教学计划编写要求",
+      "start_page": 61,
+      "end_page": 61,
+      "subsections": []
+    },
+    {
+      "id": "07-01",
+      "chapter_number": 7,
+      "section_number": 1,
+      "chapter": "七、专题资源管理",
+      "title": "管理专题资源分类",
+      "start_page": 61,
+      "end_page": 63,
+      "subsections": []
+    },
+    {
+      "id": "07-02",
+      "chapter_number": 7,
+      "section_number": 2,
+      "chapter": "七、专题资源管理",
+      "title": "管理专题资源",
+      "start_page": 64,
+      "end_page": 65,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "查看专题资源",
+          "start_page": 64
+        },
+        {
+          "number": 2,
+          "title": "编辑专题资源",
+          "start_page": 64
+        },
+        {
+          "number": 3,
+          "title": "查看审核详情",
+          "start_page": 65
+        },
+        {
+          "number": 4,
+          "title": "删除专题资源",
+          "start_page": 65
+        }
+      ]
+    },
+    {
+      "id": "08-01",
+      "chapter_number": 8,
+      "section_number": 1,
+      "chapter": "八、观课议课",
+      "title": "抽查听课本",
+      "start_page": 66,
+      "end_page": 66,
+      "subsections": []
+    },
+    {
+      "id": "08-02",
+      "chapter_number": 8,
+      "section_number": 2,
+      "chapter": "八、观课议课",
+      "title": "查看我的审阅记录",
+      "start_page": 67,
+      "end_page": 67,
+      "subsections": []
+    },
+    {
+      "id": "08-03",
+      "chapter_number": 8,
+      "section_number": 3,
+      "chapter": "八、观课议课",
+      "title": "设置整体工作要求",
+      "start_page": 68,
+      "end_page": 69,
+      "subsections": []
+    },
+    {
+      "id": "08-04",
+      "chapter_number": 8,
+      "section_number": 4,
+      "chapter": "八、观课议课",
+      "title": "管理公开课",
+      "start_page": 70,
+      "end_page": 73,
+      "subsections": []
+    },
+    {
+      "id": "08-05",
+      "chapter_number": 8,
+      "section_number": 5,
+      "chapter": "八、观课议课",
+      "title": "设置听课本封面",
+      "start_page": 74,
+      "end_page": 74,
+      "subsections": []
+    },
+    {
+      "id": "08-06",
+      "chapter_number": 8,
+      "section_number": 6,
+      "chapter": "八、观课议课",
+      "title": "设置听课记录模板",
+      "start_page": 75,
+      "end_page": 75,
+      "subsections": []
+    },
+    {
+      "id": "08-07",
+      "chapter_number": 8,
+      "section_number": 7,
+      "chapter": "八、观课议课",
+      "title": "设置评分量表",
+      "start_page": 76,
+      "end_page": 78,
+      "subsections": []
+    },
+    {
+      "id": "08-08",
+      "chapter_number": 8,
+      "section_number": 8,
+      "chapter": "八、观课议课",
+      "title": "其他设置",
+      "start_page": 79,
+      "end_page": 79,
+      "subsections": []
+    },
+    {
+      "id": "08-09",
+      "chapter_number": 8,
+      "section_number": 9,
+      "chapter": "八、观课议课",
+      "title": "查看直播时长消耗记录",
+      "start_page": 79,
+      "end_page": 79,
+      "subsections": []
+    },
+    {
+      "id": "09-01",
+      "chapter_number": 9,
+      "section_number": 1,
+      "chapter": "九、集体教研",
+      "title": "抽查活动情况",
+      "start_page": 80,
+      "end_page": 80,
+      "subsections": []
+    },
+    {
+      "id": "09-02",
+      "chapter_number": 9,
+      "section_number": 2,
+      "chapter": "九、集体教研",
+      "title": "查看我的审阅记录",
+      "start_page": 81,
+      "end_page": 81,
+      "subsections": []
+    },
+    {
+      "id": "09-03",
+      "chapter_number": 9,
+      "section_number": 3,
+      "chapter": "九、集体教研",
+      "title": "设置整体工作要求",
+      "start_page": 82,
+      "end_page": 82,
+      "subsections": []
+    },
+    {
+      "id": "09-04",
+      "chapter_number": 9,
+      "section_number": 4,
+      "chapter": "九、集体教研",
+      "title": "查看督导分析",
+      "start_page": 82,
+      "end_page": 82,
+      "subsections": []
+    },
+    {
+      "id": "10-01",
+      "chapter_number": 10,
+      "section_number": 1,
+      "chapter": "十、线上竞赛",
+      "title": "发起线上竞赛",
+      "start_page": 83,
+      "end_page": 88,
+      "subsections": []
+    },
+    {
+      "id": "10-02",
+      "chapter_number": 10,
+      "section_number": 2,
+      "chapter": "十、线上竞赛",
+      "title": "管理竞赛活动",
+      "start_page": 89,
+      "end_page": 116,
+      "subsections": [
+        {
+          "number": 5,
+          "title": "编辑基本配置",
+          "start_page": 89
+        },
+        {
+          "number": 6,
+          "title": "设置首页主推内容",
+          "start_page": 91
+        },
+        {
+          "number": 7,
+          "title": "设置推荐位",
+          "start_page": 93
+        },
+        {
+          "number": 8,
+          "title": "发布公告",
+          "start_page": 95
+        },
+        {
+          "number": 9,
+          "title": "查看参赛选手",
+          "start_page": 97
+        },
+        {
+          "number": 10,
+          "title": "设置评审规则",
+          "start_page": 99
+        },
+        {
+          "number": 11,
+          "title": "设置评分模板",
+          "start_page": 101
+        },
+        {
+          "number": 12,
+          "title": "设置评委",
+          "start_page": 103
+        },
+        {
+          "number": 13,
+          "title": "分配评审任务",
+          "start_page": 106
+        },
+        {
+          "number": 14,
+          "title": "跟踪评审进度",
+          "start_page": 112
+        },
+        {
+          "number": 15,
+          "title": "设置评奖",
+          "start_page": 112
+        },
+        {
+          "number": 16,
+          "title": "设置结果公示",
+          "start_page": 113
+        },
+        {
+          "number": 17,
+          "title": "设置常见问题",
+          "start_page": 114
+        }
+      ]
+    },
+    {
+      "id": "11-01",
+      "chapter_number": 11,
+      "section_number": 1,
+      "chapter": "十一、开放日活动",
+      "title": "发布开放日活动",
+      "start_page": 117,
+      "end_page": 120,
+      "subsections": []
+    },
+    {
+      "id": "11-02",
+      "chapter_number": 11,
+      "section_number": 2,
+      "chapter": "十一、开放日活动",
+      "title": "管理开放日活动",
+      "start_page": 121,
+      "end_page": 127,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "查看报名/签到统计",
+          "start_page": 121
+        },
+        {
+          "number": 2,
+          "title": "查看活动展示的公开课",
+          "start_page": 122
+        },
+        {
+          "number": 3,
+          "title": "设置推荐信息",
+          "start_page": 123
+        },
+        {
+          "number": 4,
+          "title": "编辑/删除开放日活动",
+          "start_page": 126
+        },
+        {
+          "number": 5,
+          "title": "分享开放日活动",
+          "start_page": 128
+        }
+      ]
+    },
+    {
+      "id": "12-01",
+      "chapter_number": 12,
+      "section_number": 1,
+      "chapter": "十二、话题讨论",
+      "title": "管理话题分类",
+      "start_page": 128,
+      "end_page": 130,
+      "subsections": []
+    },
+    {
+      "id": "12-02",
+      "chapter_number": 12,
+      "section_number": 2,
+      "chapter": "十二、话题讨论",
+      "title": "管理话题内容",
+      "start_page": 131,
+      "end_page": 135,
+      "subsections": []
+    },
+    {
+      "id": "13-01",
+      "chapter_number": 13,
+      "section_number": 1,
+      "chapter": "十三、培训研修",
+      "title": "创建培训项目",
+      "start_page": 136,
+      "end_page": 141,
+      "subsections": []
+    },
+    {
+      "id": "13-02",
+      "chapter_number": 13,
+      "section_number": 2,
+      "chapter": "十三、培训研修",
+      "title": "管理培训项目",
+      "start_page": 142,
+      "end_page": 158,
+      "subsections": [
+        {
+          "number": 1,
+          "title": "编辑项目基本信息",
+          "start_page": 142
+        },
+        {
+          "number": 2,
+          "title": "编辑报名与考核要求",
+          "start_page": 143
+        },
+        {
+          "number": 3,
+          "title": "课程安排",
+          "start_page": 145
+        },
+        {
+          "number": 4,
+          "title": "研修活动管理",
+          "start_page": 146
+        },
+        {
+          "number": 5,
+          "title": "项目公告管理",
+          "start_page": 148
+        },
+        {
+          "number": 6,
+          "title": "项目简报管理",
+          "start_page": 150
+        },
+        {
+          "number": 7,
+          "title": "日志管理",
+          "start_page": 152
+        },
+        {
+          "number": 8,
+          "title": "作业管理",
+          "start_page": 153
+        },
+        {
+          "number": 9,
+          "title": "讨论管理",
+          "start_page": 155
+        },
+        {
+          "number": 10,
+          "title": "学员管理",
+          "start_page": 156
+        }
+      ]
+    },
+    {
+      "id": "13-03",
+      "chapter_number": 13,
+      "section_number": 3,
+      "chapter": "十三、培训研修",
+      "title": "删除培训项目",
+      "start_page": 159,
+      "end_page": 159,
+      "subsections": []
+    },
+    {
+      "id": "13-04",
+      "chapter_number": 13,
+      "section_number": 4,
+      "chapter": "十三、培训研修",
+      "title": "下架培训项目",
+      "start_page": 160,
+      "end_page": 160,
+      "subsections": []
+    },
+    {
+      "id": "13-05",
+      "chapter_number": 13,
+      "section_number": 5,
+      "chapter": "十三、培训研修",
+      "title": "培训课管理",
+      "start_page": 161,
+      "end_page": 163,
+      "subsections": []
+    },
+    {
+      "id": "13-06",
+      "chapter_number": 13,
+      "section_number": 6,
+      "chapter": "十三、培训研修",
+      "title": "文件中转站",
+      "start_page": 164,
+      "end_page": 164,
+      "subsections": []
+    },
+    {
+      "id": "14-01",
+      "chapter_number": 14,
+      "section_number": 1,
+      "chapter": "十四、首页优秀内容推荐",
+      "title": "推荐优秀课程资源",
+      "start_page": 165,
+      "end_page": 166,
+      "subsections": []
+    },
+    {
+      "id": "14-02",
+      "chapter_number": 14,
+      "section_number": 2,
+      "chapter": "十四、首页优秀内容推荐",
+      "title": "推荐优秀专题资源",
+      "start_page": 167,
+      "end_page": 167,
+      "subsections": []
+    },
+    {
+      "id": "14-03",
+      "chapter_number": 14,
+      "section_number": 3,
+      "chapter": "十四、首页优秀内容推荐",
+      "title": "推荐优秀公开课",
+      "start_page": 168,
+      "end_page": 168,
+      "subsections": []
+    },
+    {
+      "id": "14-04",
+      "chapter_number": 14,
+      "section_number": 4,
+      "chapter": "十四、首页优秀内容推荐",
+      "title": "推荐优秀听评课记录",
+      "start_page": 169,
+      "end_page": 170,
+      "subsections": []
+    },
+    {
+      "id": "14-05",
+      "chapter_number": 14,
+      "section_number": 5,
+      "chapter": "十四、首页优秀内容推荐",
+      "title": "推荐优秀集体备课",
+      "start_page": 171,
+      "end_page": 171,
+      "subsections": []
+    },
+    {
+      "id": "14-06",
+      "chapter_number": 14,
+      "section_number": 6,
+      "chapter": "十四、首页优秀内容推荐",
+      "title": "推荐热门活动",
+      "start_page": 172,
+      "end_page": 172,
+      "subsections": []
+    },
+    {
+      "id": "14-07",
+      "chapter_number": 14,
+      "section_number": 7,
+      "chapter": "十四、首页优秀内容推荐",
+      "title": "推荐培训研修",
+      "start_page": 173,
+      "end_page": 175,
+      "subsections": []
+    }
+  ]
+}
