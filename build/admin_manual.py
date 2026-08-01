@@ -29,6 +29,28 @@ REPORT_PATH = BUILD_DIR / "validation-report.json"
 FIRST_CONTENT_PAGE = 8
 LAST_CONTENT_PAGE = 175
 
+ADMIN_CSS = """
+
+/* Administrator manual: subsection numbers are part of the links themselves. */
+.in-page-toc ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Small UI glyphs from the PDF belong inside the surrounding brackets. */
+.inline-icon {
+  display: inline-block;
+  width: auto;
+  height: 1.35em;
+  max-width: 3em;
+  margin: 0 0.12em;
+  vertical-align: -0.28em;
+  object-fit: contain;
+}
+"""
+
+INLINE_ICON_TOKEN_RE = re.compile(r"@@INLINE_ICON:([^@]+)@@")
+
 PDF_CANDIDATE = Path(
     r"D:\Desktop\20260724_刘炎参加湖南省李燕数字教研工作室网络平台材料_26秋"
     r"\1.网络平台管理材料\2.操作手册\湖南省数字教研工作室操作手册（管理员）.pdf"
@@ -133,6 +155,68 @@ def merge_continuation_blocks(section: dict, blocks: list[dict]) -> list[dict]:
             continue
         merged.append(block)
     return merged
+
+
+def embed_inline_icons(blocks: list[dict]) -> tuple[list[dict], int]:
+    """Move small PDF UI glyphs into the nearby empty brackets or quotes."""
+    prepared = [dict(block) for block in blocks]
+    remove_indexes: set[int] = set()
+    embedded = 0
+    placeholder = re.compile(r"【\s*】|“\s*”")
+
+    for index, block in enumerate(prepared):
+        if block.get("type") != "image":
+            continue
+        if int(block.get("width", 0)) > 64 or int(block.get("height", 0)) > 64:
+            continue
+
+        token = f"@@INLINE_ICON:{block['src']}@@"
+        target_index: int | None = None
+        for candidate in (index - 1, index + 1, index - 2, index + 2):
+            if candidate < 0 or candidate >= len(prepared):
+                continue
+            candidate_block = prepared[candidate]
+            if candidate_block.get("type") != "text":
+                continue
+            if placeholder.search(candidate_block.get("text", "")):
+                target_index = candidate
+                break
+
+        if target_index is None:
+            raise AssertionError(
+                f"第 {block.get('page')} 页小图标未找到相邻占位符：{block['src']}"
+            )
+
+        text = prepared[target_index]["text"]
+        prepared[target_index]["text"] = placeholder.sub(
+            lambda match: match.group(0)[0] + token + match.group(0)[-1],
+            text,
+            count=1,
+        )
+        remove_indexes.add(index)
+        embedded += 1
+
+    return [
+        block for index, block in enumerate(prepared) if index not in remove_indexes
+    ], embedded
+
+
+ORIGINAL_RENDER_TEXT_BLOCK = legacy.render_text_block
+
+
+def render_text_block_with_inline_icons(
+    block: dict, section: dict
+) -> tuple[str, int | None]:
+    markup, subsection_number = ORIGINAL_RENDER_TEXT_BLOCK(block, section)
+
+    def icon_markup(match: re.Match[str]) -> str:
+        src = html.escape(match.group(1), quote=True)
+        return (
+            f'<img class="inline-icon" src="../assets/images/{src}" '
+            'alt="操作图标" loading="lazy" decoding="async">'
+        )
+
+    return INLINE_ICON_TOKEN_RE.sub(icon_markup, markup), subsection_number
 
 
 def parse_toc(pdf_path: Path) -> dict:
@@ -377,7 +461,9 @@ def resolve_reference(source: Path, reference: str) -> tuple[Path, str]:
     return target.resolve(), parsed.fragment
 
 
-def validate_site(sections: list[dict], image_count: int) -> dict:
+def validate_site(
+    sections: list[dict], image_count: int, expected_inline_icons: int
+) -> dict:
     html_files = sorted(SITE_DIR.rglob("*.html"))
     chapter_files = sorted(CHAPTER_DIR.glob("*.html"))
     if len(chapter_files) != 68 or len(html_files) != 69:
@@ -390,12 +476,14 @@ def validate_site(sections: list[dict], image_count: int) -> dict:
     missing_resources: list[str] = []
     hard_break_paragraphs: list[str] = []
     image_references = 0
+    inline_icons = 0
 
     for html_path in html_files:
         source = html_path.read_text(encoding="utf-8")
         parser = ReferenceParser()
         parser.feed(source)
         image_references += len(parser.images)
+        inline_icons += source.count('class="inline-icon"')
         if re.search(r"<p>[^<]*\n[^<]*</p>", source):
             hard_break_paragraphs.append(html_path.name)
 
@@ -428,6 +516,10 @@ def validate_site(sections: list[dict], image_count: int) -> dict:
             f"缺图 {len(missing_images)}，失效链接 {len(broken_links)}，"
             f"资源异常 {len(missing_resources)}，硬换行 {len(hard_break_paragraphs)}"
         )
+    if inline_icons != expected_inline_icons:
+        raise AssertionError(
+            f"行内图标数量异常：{inline_icons}/{expected_inline_icons}"
+        )
 
     js_source = (JS_DIR / "main.js").read_text(encoding="utf-8")
     search_source = (JS_DIR / "search-index.js").read_text(encoding="utf-8")
@@ -453,6 +545,7 @@ def validate_site(sections: list[dict], image_count: int) -> dict:
         "broken_links": 0,
         "missing_resources": 0,
         "hard_break_paragraphs": 0,
+        "inline_icons": inline_icons,
         "search_entries": len(sections),
         "search_highlight_dismiss": "pass",
         "dynamic_sidebar_title": "pass",
@@ -468,6 +561,8 @@ def prepare_site() -> None:
     JS_DIR.mkdir(parents=True, exist_ok=True)
     CSS_DIR.mkdir(parents=True, exist_ok=True)
     shutil.copy2(ROOT / "site" / "assets" / "css" / "style.css", CSS_DIR / "style.css")
+    with (CSS_DIR / "style.css").open("a", encoding="utf-8") as stream:
+        stream.write(ADMIN_CSS)
     shutil.copy2(ROOT / "site" / "assets" / "js" / "main.js", JS_DIR / "main.js")
     shutil.copy2(
         ROOT / "site" / "assets" / "images" / "badge-logo.png",
@@ -492,16 +587,22 @@ def main() -> None:
 
     legacy.INT_TO_CHINESE.update({13: "十三", 14: "十四"})
     legacy.join_pdf_lines = clean_pdf_lines
+    legacy.render_text_block = render_text_block_with_inline_icons
     chapters = sections_data["chapters"]
     sections = sections_data["sections"]
     flattened = legacy.flatten_content(content_data)
     segmented = legacy.split_sections(sections, flattened)
-    segmented = {
-        section["id"]: merge_continuation_blocks(
-            section, segmented[section["id"]]
+    inline_icon_count = 0
+    prepared_segments: dict[str, list[dict]] = {}
+    for section in sections:
+        embedded_blocks, embedded_count = embed_inline_icons(
+            segmented[section["id"]]
         )
-        for section in sections
-    }
+        inline_icon_count += embedded_count
+        prepared_segments[section["id"]] = merge_continuation_blocks(
+            section, embedded_blocks
+        )
+    segmented = prepared_segments
 
     search_index: list[dict] = []
     subsection_warnings: list[dict] = []
@@ -518,7 +619,9 @@ def main() -> None:
             subsection_warnings.append({"section": section["id"], "missing": missing})
 
         search_text = " ".join(
-            legacy.join_pdf_lines(block["text"])
+            INLINE_ICON_TOKEN_RE.sub(
+                "图标", legacy.join_pdf_lines(block["text"])
+            )
             for block in segmented[section["id"]]
             if block["type"] == "text"
         )
@@ -544,7 +647,7 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    report = validate_site(sections, manual_image_count)
+    report = validate_site(sections, manual_image_count, inline_icon_count)
     report["image_occurrences"] = content_data["image_occurrences"]
     report["subsection_warnings"] = subsection_warnings
     REPORT_PATH.write_text(
