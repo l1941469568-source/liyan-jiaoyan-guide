@@ -1,8 +1,8 @@
 {
-  "html_pages": 49,
-  "chapter_pages": 48,
-  "image_references": 392,
-  "image_files": 376,
+  "html_pages": 50,
+  "chapter_pages": 49,
+  "image_references": 393,
+  "image_files": 377,
   "missing_images": 0,
   "broken_links": 0,
   "missing_resources": 0,
@@ -15,7 +15,7 @@
     "01-02",
     "04-01"
   ],
-  "search_entries": 48,
+  "search_entries": 49,
   "inline_icons": 11,
   "subsection_warnings": []
 }
